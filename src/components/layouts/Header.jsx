@@ -6,8 +6,6 @@ import {
   BiBell,
   BiMessage,
   BiSlider,
-  BiSolidGrid,
-  BiSolidWrench,
 } from "react-icons/bi";
 
 export default function Header() {

@@ -2,7 +2,7 @@ import DefaultLayout from "./layouts/DefaultLayout";
 
 function App() {
   return (
-    <div className="font-fredoka bg-[#fbfcfe] h-screen">
+    <div className="font-fredoka bg-[#e8f1fa] h-screen">
       <DefaultLayout />
     </div>
   );

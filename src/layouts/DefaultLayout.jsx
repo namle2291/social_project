@@ -18,7 +18,7 @@ export default function DefaultLayout() {
             <Route path="/" element={<Home />} />
           </Routes>
         </div>
-        <div className="col-span-2">
+        <div className="col-span-2 px-[15px]">
           <ChatList />
         </div>
       </div>
