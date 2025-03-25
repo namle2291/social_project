@@ -1,14 +1,7 @@
 import React from "react";
-import { FcReddit } from "react-icons/fc";
 import { IoSearch } from "react-icons/io5";
 import { IoHomeOutline } from "react-icons/io5";
-import {
-  BiBell,
-  BiMessage,
-  BiSlider,
-  BiSolidGrid,
-  BiSolidWrench,
-} from "react-icons/bi";
+import { BiBell, BiMessage, BiSlider } from "react-icons/bi";
 
 export default function Header() {
   return (
@@ -16,9 +9,6 @@ export default function Header() {
       <div className="grid grid-cols-2 w-full">
         <div className="flex items-center">
           <div className="w-[280px] pl-[10px] flex items-center">
-            <span className="text-[32px] text-[#10d876]">
-              <FcReddit />
-            </span>
             <h4 className="ml-[5px] text-[32px] text-[#05f] font-extrabold">
               Oh Yes.
             </h4>
