@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 import { Route, Routes } from "react-router";
 import Home from "../pages/Home";
 import Header from "../components/layouts/Header";
@@ -7,7 +8,7 @@ import ChatList from "../components/chats/ChatList";
 
 export default function DefaultLayout() {
   return (
-    <div>
+    <div className="">
       <Header />
       <div className="grid grid-cols-12">
         <div className="col-span-2 px-[15px]">
